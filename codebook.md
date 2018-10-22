@@ -1,17 +1,17 @@
-#Codebook for tidydataset
+# Codebook for tidydataset
 
-##Data Source
+## Data Source
 
 This data comes from the Human Activity Recognition Using Smartphones Data Set, which I pulled from here
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-##Variables
+## Variables
 
-###Identifiers
+### Identifiers
 "subject": An ID from 1:30 that indicates the ID of the subject
 "activity": A 6 factor variable that takes the values "WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING"
 
-###Measures
+### Measures
 All measures are means of the mean and standard deviation features in the original dataset, grouped by subject and activity.
  "TimeBodyAccelerometerMeanX"                     
  "TimeBodyAccelerometerMeanY"                     
